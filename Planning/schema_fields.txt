@@ -1,0 +1,62 @@
+# SCHEMA MODEL and DATABASE FIELDS
+
+### ONELISTING
+id: INT
+estatea: INT (FOREIGN KEY [estatea])
+title: STR
+address: STR
+city: STR
+county: STR
+postcode: STR
+description: TEXT
+price: INT
+bedrooms: INT
+bathrooms: INT
+parking: INT [0]
+
+sqft: INT
+total_area: FLOAT
+is_published: BOOL [true]
+list_date: DATE
+photo_main: STR
+photo_1: STR
+photo_2: STR
+photo_3: STR
+photo_4: STR
+photo_5: STR
+photo_6: STR
+--------------------
+
+ESTATEA
+### ESTATEA
+id: INT
+name: STR
+photo: STR
+description: TEXT
+email: STR
+phone: STR
+
+
+
+### CONTACTFORM
+id: INT
+user_id: INT
+onelisting: INT
+listing_id: INT
+name: STR
+email: STR
+phone: STR
+message: TEXT
+dateofcontact: DATE
+
+
+
+
+
+
+
+
+
+
+
+

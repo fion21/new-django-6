@@ -17,9 +17,7 @@ The website allows you (an outside user) to list your property as an extra servi
 
 I first browsed through existing websites which feature Spanish properties: www.aplaceinthesun.com/spain, www.idealista.com, www.kyero.com, www.lucasfox.com.
 
-Functionality*. **Layout design**: the site theme is 
-Dark blue, grey, turquoise in colour. The theme itself was largely based on that designed by Brad Traversy in
-A Udemy video series about American Properties. I also changed the colours in the Admin area to dark blue and white. The changes are present in the css file. I also designed a logo which is present on the last photo of the majority of listings, also as an icon tab, although might not function due to AWS storage issues. All of the pre-design and UI stages can be seen as sketches in the **Planning ** folder in this Github account ‘s directory.
+**Layout design**: the site theme is dark blue, grey, turquoise in colour. The theme itself was largely based on that designed by Brad Traversy in a Udemy video series about American Properties. I also changed the colours in the Admin area to dark blue and white. The changes are present in the css file. I also designed a logo which is present on the last photo of the majority of listings, also as an icon tab, although might not function due to AWS storage issues. All of the pre-design and UI stages can be seen as sketches in the **Planning ** folder in this Github account ‘s directory.
 
 
 ## Responsiveness

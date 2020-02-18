@@ -21,7 +21,7 @@ I first browsed through existing websites which feature Spanish properties: www.
 
 
 ## Responsiveness
-The app works all phones and screens.
+The app works all phones and screens. The UX fonts and card feature, plus the navbar and hamburger are all scalable, responsive and easy to navigate throughout the site. In the preliminary stages of the site I called a photo for the background image, although, it did not scale as I wanted and also the jumbotron had issues, finally, all is clear, simple and easy to navigate. The site follows responsive design and works for desktop viewing on browsers: google chrome, firefox and explorer as well as mobiles having checked the rending on the iPhone: from 6 plus to X, Samsung Galaxy: all versions, iPad: all versions, Google: Pixel 2 and 3. 
 
 ## CRUD Functionality
 
@@ -60,10 +60,6 @@ Present to a real property website client as a proposal website, to be taken on 
 * [Postgres](https://www.postgresql.com/) Database source file
 * [AWS](https://www.aws.amazon.com) Amazon S3 Boto Static File Storage Service
 
-
-#### Responsiveness
-The UX fonts and card feature, plus the navbar and hamburger are all scalable, responsive and easy to navigate throughout the site. In the preliminary stages of the site I called a photo for the background image, although, it did not scale as I wanted and also the jumbotron had issues, finally, all is clear, simple and easy to navigate. The site follows responsive design and works for desktop viewing on browsers: google chrome, firefox and explorer as well as mobiles having checked the rending on the iPhone: from 6 plus to X, Samsung Galaxy: all versions, iPad: all versions, Google: Pixel 2 and 3. 
-
 #### Coding Tests
 The HTML, CSS code for this application has been checked via W3C Markup and reported no significant errors. The Python code has been tested via working on the code in stages and running the app on the front-end. Back-end terminal testing and running were standard procedures throughout the app development. 
 
@@ -74,8 +70,7 @@ More detailed automated tests have been added to integrate some basic python fun
 The database is set up in **Postgres** and is comprised of property listings. Environment variables were created in a ```.env``` file which was hidden in ```.gitignore``` and not available on github pages. The connection string was added to the config vars on Heroku which is accessible only to the owner of the site.
 
 ## Deployment
-Installing the project can be done via the following stages:
-Download this repository via the green download button on the head of this page.
+Download this repository via the green download button on the head of this page. Installing the project can be done via the following stages:
 ````Login to Heroku.com presuming you have pre-registered
 On the Heroku dashboard click on Create New App
 Enter a unique name and your region (nearest), click Create
@@ -108,8 +103,8 @@ This should see the app live at https://<whatever-you-called-it>.herokuapp.com/
 
 **Teclado**, The Complete Python Course Tutorial Udemy
 
-**Victor Freitas**
-* [User Based Uploads] (https://www.youtube.com/watch?v=KQJRwWpP8hs)
+**Victor Freitas**, 
+ * [User Based Uploads](https://www.youtube.com/watch?v=KQJRwWpP8hs)
 
 
 ## Images

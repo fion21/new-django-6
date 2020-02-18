@@ -1,5 +1,79 @@
 {% extends 'base.html' %} 
-{% block content %}
-<h1>index</h1>
 
+{% load humanize %}
+
+{% load static %}
+
+{% block title %} | Welcome {% endblock %}
+
+{% block content %}
+<!-- Showcase -->
+   
+  <!-- Alerts -->
+  {% include 'partials/_alerts.html' %}
+      </div>
+    </div>
+  </section>
+  <section id="services" class="py-5 bg-secondary text-white">
+    <div class="container">
+      <h2 class="col-md-4  mb-3 col-md-12 text-center">
+            Property in Alicante & Benidorm &nbsp; </h2>
+          <p class="col-md-4 col-md-12 text-center">We specialise in Properties in Alicante and Benidorm. Prices are displayed in pounds for the purposes of British customers, and are subject to Euro rates on contract completion.</p>
+            <form action="{% url 'search' %}">
+            <!-- Form Row 1 -->
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label class="sr-only">Keywords</label>
+                <input type="text" name="keywords" class="form-control" placeholder="Keywords (Pool, etc...)" value="{{ values.keywords }}">
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <label class="sr-only">City</label>
+                <input type="text" name="city" class="form-control" placeholder="City/Town" value="{{ values.city }}">
+              </div>
+
+               <div class="col-md-4 mb-3">
+                  <label class="sr-only">Region</label>
+                  <select name="state" class="form-control">
+                    <option selected="true" disabled="disabled">Region</option>
+                    <option value="Alicante">Alicante</option>
+                    <option value="Benidorm">Benidorm</option>
+                  </select>
+                </div>
+              </div>
+            <!-- Form Row 2 -->
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label class="sr-only">Bedrooms</label>
+                <select name="bedrooms" class="form-control">
+                   <option selected="true" disabled="disabled">Bedrooms</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6+</option>
+                  </select>
+                  </div>
+              <div class="col-md-6 mb-3">
+                  <select class="form-control" id="type">
+                    <option selected="true" disabled="disabled">Max Price</option>
+                    <option value="100000">£100,000</option>
+                    <option value="200000">£200,000</option>
+                    <option value="300000">£300,000</option>
+                    <option value="400000">£400,000</option>
+                    <option value="500000">£500,000</option>
+                    <option value="600000">£600,000</option>
+                    <option value="700000">£700,000</option>
+                    <option value="800000">£800,000</option>
+                    <option value="900000">£900,000</option>
+                    <option value="1000000">£1M+</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-block col-md-4 col-md-12" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+     </section>
 {% endblock %}

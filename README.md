@@ -17,7 +17,7 @@ The website allows you (an outside user) to list your property as an extra servi
 
 I first browsed through existing websites which feature Spanish properties: www.aplaceinthesun.com/spain, www.idealista.com, www.kyero.com, www.lucasfox.com.
 
-**Layout design**: the site theme is dark blue, grey, turquoise in colour. The theme itself was largely based on that designed by Brad Traversy in a Udemy video series about American Properties. I also changed the colours in the Admin area to dark blue and white. The changes are present in the css file. I also designed a logo which is present on the last photo of the majority of listings, also as an icon tab, although might not function due to AWS storage issues. All of the pre-design and UI stages can be seen as sketches in the **Planning ** folder in this Github account ‘s directory.
+**Layout design**: the site theme is dark blue, grey, turquoise in colour. The theme itself was largely based on that designed by Brad Traversy in a Udemy video series about American Properties. I also changed the colours in the Admin area to dark blue and white. The changes are present in the css file. I also designed a logo which is present on the last photo of the majority of listings, also as an icon tab, although might not function due to AWS storage issues. All of the pre-design and UI stages can be seen as sketches in the **Planning** folder in this Github account's directory.
 
 
 ## Responsiveness
@@ -75,10 +75,8 @@ The database is set up in **Postgres** and is comprised of property listings. En
 
 ## Deployment
 Installing the project can be done via the following stages:
-````
 Download this repository via the green download button on the head of this page.
-
-Login to Heroku.com presuming you have pre-registered
+````Login to Heroku.com presuming you have pre-registered
 On the Heroku dashboard click on Create New App
 Enter a unique name and your region (nearest), click Create
 Go back to your command line terminal where your app is, enter Heroku
@@ -111,15 +109,14 @@ This should see the app live at https://<whatever-you-called-it>.herokuapp.com/
 **Teclado**, The Complete Python Course Tutorial Udemy
 
 **Victor Freitas**
-*[User Based Uploads]*
-(https://www.youtube.com/watch?v=KQJRwWpP8hs)
+* [User Based Uploads] (https://www.youtube.com/watch?v=KQJRwWpP8hs)
 
 
 ## Images
 All images used in this application are copyright of their respective website owners.
 
 ## License
-This project is released under the *[MIT licence]*(https://github.com/fion21/Alican-prop-5/LICENSE).
+This project is released under the * [MIT licence](https://github.com/fion21/Alican-prop-5/LICENSE).
 
 
 ## Disclaimer
